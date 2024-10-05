@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,10 @@
 		EB2767822BC8222A00E70018 /* VotingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB67511F2CB19376007CBC4B /* App Layout */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "App Layout"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		EB2767682BC8131000E70018 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -42,6 +46,7 @@
 		EB2767622BC8131000E70018 = {
 			isa = PBXGroup;
 			children = (
+				EB67511F2CB19376007CBC4B /* App Layout */,
 				EB27676D2BC8131000E70018 /* PresidentialVote */,
 				EB27676C2BC8131000E70018 /* Products */,
 			);

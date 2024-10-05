@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  PresidentialVote
+//  PresidentialVote - initial name and idea
 //
 //  Created by Brian Foutty on 4/11/24.
 //
@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // #1
+    // #1 - Create UI in Main
     // #3
     // MARK: - IB Outlets
     @IBOutlet weak var detailsLabel: UILabel!
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     // MARK: - VDL
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // #13
         updateUI(forState: .startVote)
     }
     
@@ -53,9 +53,9 @@ class ViewController: UIViewController {
         yesButton.isEnabled = false
     }
     
-    // #8
+    // #10
     @IBAction func submitVoteButtonTapped(_ sender: UIButton) {
-        // #10
+        // #12
         voteCast()
         updateUI(forState: .startVote)
         
@@ -76,13 +76,16 @@ class ViewController: UIViewController {
         
     }
     
-    // #11
+    // #15
     @IBAction func totalButtonTapped(_ sender: UIButton) {
+        // #16
         tallyVotes(yesVotes: yesVotes, noVotes: noVotes)
         updateUI(forState: .total)
     }
     
+    // #18
     @IBAction func checkButtonTapped(_ sender: UIButton) {
+        // #19
         updateUI(forState: .check)
         checkVotes(yesVotes: yesVotes, noVotes: noVotes)
     }
@@ -139,25 +142,7 @@ class ViewController: UIViewController {
         }
     }
     
-    // #12
-    func tallyVotes(yesVotes: Int, noVotes: Int) {
-        if yesVotes > noVotes {
-            voteResultLabel.text = "The issue passed with a vote total of \(yesVotes) YES votes to \(noVotes) NO votes."
-        } else if yesVotes < noVotes {
-            voteResultLabel.text = "The issue failed with a vote total of \(yesVotes) YES votes to \(noVotes) NO votes."
-        } else if yesVotes == noVotes {
-            voteResultLabel.text = "It's a tie. Ummmm...🙄"
-        }
-    }
-    
-    func checkVotes(yesVotes: Int, noVotes: Int) {
-        voteResultLabel.text = """
-        Yes votes = \(yesVotes)
-        No votes = \(noVotes)
-        """
-    }
-    
-    // #9
+    // #11
     fileprivate func voteCast() {
         if yesState == true {
             yesVotes += 1
@@ -171,19 +156,43 @@ class ViewController: UIViewController {
             noState = false
         }
     }
-
+    
+    // #14
+    func tallyVotes(yesVotes: Int, noVotes: Int) {
+        if yesVotes > noVotes {
+            voteResultLabel.text = "The issue passed with a vote total of \(yesVotes) YES votes to \(noVotes) NO votes."
+        } else if yesVotes < noVotes {
+            voteResultLabel.text = "The issue failed with a vote total of \(yesVotes) YES votes to \(noVotes) NO votes."
+        } else if yesVotes == noVotes {
+            voteResultLabel.text = "It's a tie. Ummmm...🙄"
+        }
+    }
+    
+    // #17
+    func checkVotes(yesVotes: Int, noVotes: Int) {
+        voteResultLabel.text = """
+        Yes votes = \(yesVotes)
+        No votes = \(noVotes)
+        """
+    }
 }
 
-// #1 - Create UI according to PDFs Layout folder
-// #2 - create VotingState data model as a new .swift file. This has our enum property to update the UI depending upon whether someone is going to vote or has voted.
+// #1 - Create UI according to PDFs Layout folder.
+// #2 - Create VotingState data model as a new .swift file. This has our enum property to update the UI depending upon whether someone is going to vote or has voted.
 // #3 - Create the outlet connection for the two labels and all buttons by control-dragging from Main to the Assistant Editor.
 // #4 - Create the variable properties to store the vote totals and the state of the vote for tallying purposes.
-// #5 - Create the updateUI method to update the UI to show or hide buttons and labels based upon whether the voting is enabled or if you are checking the vote tallys or ending the election.
+// #5 - Create the updateUI method to update the UI to show or hide buttons and labels based upon whether the voting is enabled or if you are checking the vote tallys or ending the election by finding the total vote.
 // #6 - Create the yesVoteButtonTapped action by control-dragging from Main to the Assistant Editor.
 // #7 - Create the noVoteButtonTapped action by control-dragging from Main to the Assistant Editor.
 // #8 - update the yesState property to true and the "No" button to be disabled
 // #9 - update the noState property to true and the "Yes" button to be disabled
-// #8 - Create the submitVoteButtonTapped action by control-dragging from Main to the Assistant Editor.
-// #7 - Write the method to cast a yes or no vote and disable the corresponding button after the user has voted to prevent multiple votes.
-// #8 - call the voteCast() and updateUI() methods in submitVoteButtonTapped method.
-// #9 - Create the submitVoteButtonTapped action by control-dragging from Main to the Assistant Editor.
+// #10 - Create the submitVoteButtonTapped action by control-dragging from Main to the Assistant Editor.
+// #11 - Write the voteCast() method to cast a yes or no vote (increment the yesVote or noVote property values) and disable the opposite vote.
+// #12 - call the voteCast() and updateUI() methods in submitVoteButtonTapped method.
+// #13 - call the updateUI() method for the .start state in the viewDidLoad method so the app is ready for the user when the app first launches.
+// #14 - Write the tallyVotes() method to check the compare the yesVote and noVote property values and assign the appropriate output to the voteResultLabel's text property.
+// #15 - Create the totalButtonTapped action by control-dragging from Main to the Assistant Editor.
+// #16 - call the tallyVotes() and updateUI() methods in totalButtonTapped method. We will use the .total state.
+// #17 - We now have basic functionality done. We could stop here. However, we are now going to add the ability to check the current vote totals. Write the checkVote() method that passes in the yesVotes and noVotes values into the voteResultLabel's text property.
+// #18 - Create the checkButtonTapped action by control-dragging from Main to the Assistant Editor.
+// #19 - call the updateUI() method in totalButtonTapped method with the .check state.
