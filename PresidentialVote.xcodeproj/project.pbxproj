@@ -26,10 +26,12 @@
 		EB27677A2BC8131200E70018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB27677C2BC8131200E70018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2767822BC8222A00E70018 /* VotingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingState.swift; sourceTree = "<group>"; };
+		EB6751362CB1979A007CBC4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EB67511F2CB19376007CBC4B /* App Layout */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "App Layout"; sourceTree = "<group>"; };
+		EB6751332CB19680007CBC4B /* Explore Lesson Playgrounds */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Explore Lesson Playgrounds"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,8 @@
 		EB2767622BC8131000E70018 = {
 			isa = PBXGroup;
 			children = (
+				EB6751362CB1979A007CBC4B /* README.md */,
+				EB6751332CB19680007CBC4B /* Explore Lesson Playgrounds */,
 				EB67511F2CB19376007CBC4B /* App Layout */,
 				EB27676D2BC8131000E70018 /* PresidentialVote */,
 				EB27676C2BC8131000E70018 /* Products */,

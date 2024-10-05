@@ -61,7 +61,9 @@ class ViewController: UIViewController {
         
     }
     
+    // #22
     @IBAction func resetButtonTapped(_ sender: UIButton) {
+        // #23
         yesVotes = 0
         noVotes = 0
         yesState = false
@@ -71,7 +73,9 @@ class ViewController: UIViewController {
         
     }
     
+    // #20
     @IBAction func returnButtonTapped(_ sender: UIButton) {
+        // #21
         updateUI(forState: .startVote)
         
     }
@@ -188,11 +192,15 @@ class ViewController: UIViewController {
 // #9 - update the noState property to true and the "Yes" button to be disabled
 // #10 - Create the submitVoteButtonTapped action by control-dragging from Main to the Assistant Editor.
 // #11 - Write the voteCast() method to cast a yes or no vote (increment the yesVote or noVote property values) and disable the opposite vote.
-// #12 - call the voteCast() and updateUI() methods in submitVoteButtonTapped method.
-// #13 - call the updateUI() method for the .start state in the viewDidLoad method so the app is ready for the user when the app first launches.
+// #12 - Call the voteCast() and updateUI() methods in submitVoteButtonTapped method.
+// #13 - Call the updateUI() method for the .start state in the viewDidLoad method so the app is ready for the user when the app first launches.
 // #14 - Write the tallyVotes() method to check the compare the yesVote and noVote property values and assign the appropriate output to the voteResultLabel's text property.
 // #15 - Create the totalButtonTapped action by control-dragging from Main to the Assistant Editor.
 // #16 - call the tallyVotes() and updateUI() methods in totalButtonTapped method. We will use the .total state.
 // #17 - We now have basic functionality done. We could stop here. However, we are now going to add the ability to check the current vote totals. Write the checkVote() method that passes in the yesVotes and noVotes values into the voteResultLabel's text property.
 // #18 - Create the checkButtonTapped action by control-dragging from Main to the Assistant Editor.
-// #19 - call the updateUI() method in totalButtonTapped method with the .check state.
+// #19 - Call the updateUI() method in totalButtonTapped method with the .check state.
+// #20 - Now that we can check the vote tally at any time we need to the normal UI where the user can vote. Create the returnButtonTapped action by control-dragging from Main to the Assistant Editor.
+// #21 - Call the updateUI() method for the .start state so that the app is ready for the next user to vote.
+// #22 - Once the voting has ended we need to reset the app for a new round of voting. Create the resetButtonTapped action by control-dragging from Main to the Assistant Editor.
+// #23 - Reset the yesVote and noVote property values to zero. Reset the yesState and noState values to false. Call the updateUI() method for the .start state.
