@@ -52,9 +52,11 @@ Process 👩🏾‍🏫 👨🏻‍🏫 👨🏻‍💻 👩🏽‍💻
 
 The general process and flow of this project is in the format of an Apple Teacher Portfolio lesson. There are three parts/phases to the lesson
 
-Activate
-Explore
-Apply 
+**Activate**
+
+**Explore**
+
+**Apply**
 
 You can learn more about and sign up for Apple Teacher here: [Apple Teacher](https://education.apple.com/auth/sign-in).
 
@@ -71,7 +73,6 @@ Students should have previously learned about enumerations from the Enums and Sw
 Student will now create a ballot initiative playground that will count the number of yes and no votes stored in an array. 
     Here's the HTML to create a numbered list with the structure you specified:
 
-```html
 <ol>
   <li>Start with building the playground to count them votes using a for-in loop from an array of String values.
     <ol>
@@ -82,7 +83,6 @@ Student will now create a ballot initiative playground that will count the numbe
     </ol>
   </li>
 </ol>
-```
 
 A completed version of the playground that I use in my teaching can be found in this repository.
 
