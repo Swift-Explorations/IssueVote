@@ -75,13 +75,10 @@ Student will now create a ballot initiative playground that will count the numbe
 
 <ol>
   <li>Start with building the playground to count them votes using a for-in loop from an array of String values.
-    <ol>
-      <li>Comment out the array of Strings and the for-in loop.</li>
-      <li>Write an enum with support and oppose values.</li>
-      <li>Add values to the array from the enum emphasizing type safety because of using an enum.</li>
+    <li>Comment out the array of Strings and the for-in loop.</li>
+    <li>Write an enum with support and oppose values.</li>
+    <li>Add values to the array from the enum emphasizing type safety because of using an enum.</li>
       <li>Re-write the for-in loop to use the enum values.</li>
-    </ol>
-  </li>
 </ol>
 
 A completed version of the playground that I use in my teaching can be found in this repository.
