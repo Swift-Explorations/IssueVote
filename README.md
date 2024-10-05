@@ -69,11 +69,21 @@ _Explore_
 Students should have previously learned about enumerations from the Enums and Switch lesson in Unit 3: Organizing Data Unit in Apple's Develop in Swift Explorations course.
 
 Student will now create a ballot initiative playground that will count the number of yes and no votes stored in an array. 
-    - 1. Start with building the playground to count them votes using a for-in loop from an array of String values.
-    - 2. Comment out the array of Strings and the for-in loop.
-    - 3. Write an enum with support and oppose values.
-    - 4. Add values to the array from the enum emphasizing type safety because of using an enum.
-    5. Re-write the for-in loop to use the enum values.
+    Here's the HTML to create a numbered list with the structure you specified:
+
+```html
+<ol>
+  <li>Start with building the playground to count them votes using a for-in loop from an array of String values.
+    <ol>
+      <li>Comment out the array of Strings and the for-in loop.</li>
+      <li>Write an enum with support and oppose values.</li>
+      <li>Add values to the array from the enum emphasizing type safety because of using an enum.</li>
+      <li>Re-write the for-in loop to use the enum values.</li>
+    </ol>
+  </li>
+</ol>
+```
+
 A completed version of the playground that I use in my teaching can be found in this repository.
 
 _Apply_
