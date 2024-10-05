@@ -58,25 +58,25 @@ Apply
 
 You can learn more about and sign up for Apple Teacher here: [Apple Teacher](https://education.apple.com/auth/sign-in).
 
-Activate
+_Activate_
 
 We want our students to activate any prior knowledge on the topic. Since the students have previously made the Hello app, they will all have the starting point of the project. However, the goal of the project is to greatly improve the app and add more advanced iOS features. As a starting point, students should have a resumé made when this part is complete. Here is the activity I use with my students:
 
 The Ballot Initiative lesson can be found in this repository. It is based upon voting in Ohio. You can modify the .docx file in this repository if necessary or so desired.
 
-Explore
+_Explore_
 
 Students should have previously learned about enumerations from the Enums and Switch lesson in Unit 3: Organizing Data Unit in Apple's Develop in Swift Explorations course.
 
 Student will now create a ballot initiative playground that will count the number of yes and no votes stored in an array. 
-    1. Start with building the playground to count them votes using a for-in loop from an array of String values.
-    2. Comment out the array of Strings and the for-in loop.
-    3. Write an enum with support and oppose values.
-    4. Add values to the array from the enum emphasizing type safety because of using an enum.
+    - 1. Start with building the playground to count them votes using a for-in loop from an array of String values.
+    - 2. Comment out the array of Strings and the for-in loop.
+    - 3. Write an enum with support and oppose values.
+    - 4. Add values to the array from the enum emphasizing type safety because of using an enum.
     5. Re-write the for-in loop to use the enum values.
 A completed version of the playground that I use in my teaching can be found in this repository.
 
-Apply
+_Apply_
 
 In this part of the project we build the app. The teaching steps are labeled above each part of the app in the VotingState and ViewController files. The detailed explanation of each step can be found at the bottom of the ViewController file.
 
