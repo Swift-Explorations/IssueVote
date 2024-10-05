@@ -95,9 +95,9 @@ Project Link: [SwiftTeacher](https://github.com/SwiftExplorations/IssueVote/blob
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/Fundamentals-1/FancyLight.svg?style=for-the-badge
-[issues-url]: https://github.com/Fundamentals-1/FancyLight/issues
+[issues-url]: https://github.com/Swift-Explorations/IssueVote/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Fundamentals-1/FancyLight/blob/main/LICENSE
+[license-url]: https://github.com/Swift-Explorations/IssueVote/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/brian-foutty-607aa874
 [swift-shield]: https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white
