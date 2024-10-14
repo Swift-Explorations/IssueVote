@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EB67511F2CB19376007CBC4B /* App Layout */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "App Layout"; sourceTree = "<group>"; };
+		EB67511F2CB19376007CBC4B /* UI Layout and Constraints */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "UI Layout and Constraints"; sourceTree = "<group>"; };
 		EB6751332CB19680007CBC4B /* Explore Lesson Playgrounds */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Explore Lesson Playgrounds"; sourceTree = "<group>"; };
 		EB6751372CB1A406007CBC4B /* Activate Lesson Actitvity */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Activate Lesson Actitvity"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,7 +52,7 @@
 				EB6751362CB1979A007CBC4B /* README.md */,
 				EB6751372CB1A406007CBC4B /* Activate Lesson Actitvity */,
 				EB6751332CB19680007CBC4B /* Explore Lesson Playgrounds */,
-				EB67511F2CB19376007CBC4B /* App Layout */,
+				EB67511F2CB19376007CBC4B /* UI Layout and Constraints */,
 				EB27676D2BC8131000E70018 /* PresidentialVote */,
 				EB27676C2BC8131000E70018 /* Products */,
 			);
