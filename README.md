@@ -10,7 +10,7 @@
   <h3 align="center">IssueVote 🗳️</h3>
 
   <p align="center">
-   The Issue Ballot Vote iOS app
+   IssueVote iOS student project app for BPA Torch Award
   </p>
 
 
@@ -36,7 +36,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-A single-view applications that enables the user to vote "Yes" or "No" on the specified ballot issue language. The person conducting the election can check the current vote tally and will get the election results when the election is over.
+A single-view applications that enables the user to vote "Yes" or "No" on the specified ballot issue language. The person conducting the election can check the current vote tally and will get the election results when the election is over. The app was created to expand upon Develop in Swift Explorations Arrays and Loops and Enums and Switch lessons
 
 Background 👩🏼‍🎓 🧑🏿‍🎓 👨🏽‍🎓 👩🏻‍💻 👨🏾‍💻
 
